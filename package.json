@@ -1,0 +1,29 @@
+{
+  "name": "gatsby-remark-source-name",
+  "version": "1.0.0",
+  "description": "Add a custom sourceName field to remark nodes",
+  "main": "index.js",
+  "repository": "https://www.github.com/elboman/gatsby-remark-source-name",
+  "author": "Marco Botto",
+  "license": "MIT",
+  "private": false,
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "remark",
+    "source",
+    "name",
+    "sourceName"
+  ],
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "cross-env": "^5.1.5",
+    "standard-version": "^4.3.0"
+  },
+  "scripts": {
+    "build": "cross-env BABEL_ENV=production babel src --out-dir .",
+    "prepublishOnly": "yarn build",
+    "release": "standard-version"
+  }
+}
