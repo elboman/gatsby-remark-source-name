@@ -1,5 +1,5 @@
-exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
-  const { createNodeField } = boundActionCreators;
+exports.onCreateNode = ({ node, getNode, actions }) => {
+  const { createNodeField } = actions;
 
   // We only care about MarkdownRemark content.
   if (node.internal.type !== 'MarkdownRemark') {
