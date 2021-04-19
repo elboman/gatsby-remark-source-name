@@ -1,6 +1,6 @@
 {
   "name": "gatsby-remark-source-name",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Add a custom sourceName field to remark nodes",
   "main": "index.js",
   "repository": "https://www.github.com/elboman/gatsby-remark-source-name",
